@@ -1,4 +1,4 @@
-fetch("/Layout/footer.html")
+fetch("/Web/Layout/footer.html")
     .then(response => {
         return response.text()
     })
@@ -7,7 +7,7 @@ fetch("/Layout/footer.html")
         document.querySelector("footer").innerHTML = data;
     });
 
-fetch("/Layout/navBarTop.html")
+fetch("/Web/Layout/navBarTop.html")
     .then(response => {
         return response.text()
     })
